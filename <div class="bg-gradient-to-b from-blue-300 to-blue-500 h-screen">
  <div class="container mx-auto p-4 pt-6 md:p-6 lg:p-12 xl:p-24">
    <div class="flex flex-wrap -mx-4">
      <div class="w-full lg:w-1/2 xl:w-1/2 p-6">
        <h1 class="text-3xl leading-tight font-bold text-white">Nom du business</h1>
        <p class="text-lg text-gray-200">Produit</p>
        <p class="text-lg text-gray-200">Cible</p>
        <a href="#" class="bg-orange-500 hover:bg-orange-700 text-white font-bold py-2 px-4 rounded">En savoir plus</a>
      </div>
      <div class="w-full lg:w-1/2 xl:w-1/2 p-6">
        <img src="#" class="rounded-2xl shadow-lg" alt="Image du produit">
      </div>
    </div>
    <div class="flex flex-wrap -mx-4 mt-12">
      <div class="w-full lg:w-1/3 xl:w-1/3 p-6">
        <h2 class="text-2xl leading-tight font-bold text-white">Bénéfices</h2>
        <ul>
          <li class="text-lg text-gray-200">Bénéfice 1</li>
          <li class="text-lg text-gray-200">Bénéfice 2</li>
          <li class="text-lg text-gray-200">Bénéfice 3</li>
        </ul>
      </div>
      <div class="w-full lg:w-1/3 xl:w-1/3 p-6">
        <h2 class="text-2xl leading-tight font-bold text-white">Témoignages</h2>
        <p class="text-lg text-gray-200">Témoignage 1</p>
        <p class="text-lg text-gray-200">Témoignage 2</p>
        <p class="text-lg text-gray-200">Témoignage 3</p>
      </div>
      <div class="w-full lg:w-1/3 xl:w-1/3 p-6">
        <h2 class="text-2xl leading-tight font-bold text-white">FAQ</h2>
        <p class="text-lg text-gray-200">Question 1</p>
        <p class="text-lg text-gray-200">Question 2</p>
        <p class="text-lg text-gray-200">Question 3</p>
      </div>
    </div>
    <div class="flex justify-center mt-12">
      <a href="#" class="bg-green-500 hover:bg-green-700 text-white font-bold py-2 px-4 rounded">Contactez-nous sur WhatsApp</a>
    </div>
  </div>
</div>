@@ -1,0 +1,40 @@
+<div class="bg-gradient-to-b from-blue-300 to-blue-500 h-screen">
+  <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+    <div class="flex flex-wrap -mx-4">
+      <div class="w-full lg:w-1/2 xl:w-1/2 p-6">
+        <h1 class="text-3xl leading-tight font-bold text-white">Nom du business</h1>
+        <p class="text-lg text-gray-200">Produit</p>
+        <p class="text-lg text-gray-200">Cible</p>
+        <a href="#" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">En savoir plus</a>
+      </div>
+      <div class="w-full lg:w-1/2 xl:w-1/2 p-6">
+        <img src="#" class="rounded-2xl shadow-lg" alt="Image du produit">
+      </div>
+    </div>
+    <div class="flex flex-wrap -mx-4 mt-12">
+      <div class="w-full lg:w-1/3 xl:w-1/3 p-6">
+        <h2 class="text-2xl leading-tight font-bold text-white">Bénéfices</h2>
+        <ul>
+          <li class="text-lg text-gray-200">Bénéfice 1</li>
+          <li class="text-lg text-gray-200">Bénéfice 2</li>
+          <li class="text-lg text-gray-200">Bénéfice 3</li>
+        </ul>
+      </div>
+      <div class="w-full lg:w-1/3 xl:w-1/3 p-6">
+        <h2 class="text-2xl leading-tight font-bold text-white">Témoignages</h2>
+        <p class="text-lg text-gray-200">Témoignage 1</p>
+        <p class="text-lg text-gray-200">Témoignage 2</p>
+        <p class="text-lg text-gray-200">Témoignage 3</p>
+      </div>
+      <div class="w-full lg:w-1/3 xl:w-1/3 p-6">
+        <h2 class="text-2xl leading-tight font-bold text-white">FAQ</h2>
+        <p class="text-lg text-gray-200">Question 1</p>
+        <p class="text-lg text-gray-200">Question 2</p>
+        <p class="text-lg text-gray-200">Question 3</p>
+      </div>
+    </div>
+    <div class="flex justify-center mt-12">
+      <a href="#" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Contactez-nous sur WhatsApp</a>
+    </div>
+  </div>
+</div>
