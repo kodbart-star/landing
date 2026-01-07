@@ -1,45 +1,67 @@
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <title>Vente de pots de piment aromatisé en poudre</title>
 </head>
-<body>
-  <div class="bg-gradient-to-r from-orange-500 to-red-500 h-screen">
-    <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-          <h1 class="text-3xl leading-tight font-bold text-gray-900">Piment Aromatisé en Poudre</h1>
-          <p class="text-xl text-gray-600">Qualité artisanale, Prix imbattable</p>
-          <p class="text-lg text-gray-600">2000FCFA le pot de 80ml en promo toute l'année</p>
-          <a href="https://wa.me/your_number" class="bg-orange-500 hover:bg-red-500 text-white font-bold py-2 px-4 rounded">Acheter sur WhatsApp</a>
-        </div>
-        <div class="w-full lg:w-1/2 px-4">
-          <img src="https://storage.tally.so/private/icone-buro.png?id=WD7M2N&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IldEN00yTiIsImZvcm1JZCI6IldPRWdqUiIsImlhdCI6MTc2NzgxOTA5MX0.iFcko175s33MQUBlIv8N8lkOEJrf6MZxVho4nNa_FHA&signature=bf4c2968e555eaf2d0f830218fd910c79b192971186da75611d07ae4ba3babbf" class="rounded-2xl shadow-lg">
-        </div>
-      </div>
-      <div class="mt-12">
-        <h2 class="text-2xl leading-tight font-bold text-gray-900">Bénéfices</h2>
-        <ul class="list-none mb-4">
-          <li class="mb-2">Qualité artisanale</li>
-          <li class="mb-2">Prix imbattable</li>
-          <li class="mb-2">Idéal pour les particuliers et les restaurateurs</li>
-        </ul>
-      </div>
-      <div class="mt-12">
-        <h2 class="text-2xl leading-tight font-bold text-gray-900">Témoignages</h2>
-        <p class="text-lg text-gray-600">"Le piment aromatisé en poudre est incroyable ! La qualité est exceptionnelle et le prix est imbattable." - Client satisfait</p>
-      </div>
-      <div class="mt-12">
-        <h2 class="text-2xl leading-tight font-bold text-gray-900">FAQ</h2>
-        <ul class="list-none mb-4">
-          <li class="mb-2">Q: Quel est le prix du pot de 80ml ?</li>
-          <li class="mb-2">A: 2000FCFA</li>
-          <li class="mb-2">Q: Est-ce que le produit est de qualité artisanale ?</li>
-          <li class="mb-2">A: Oui, notre piment aromatisé en poudre est fabriqué avec soin pour offrir la meilleure qualité possible.</li>
-        </ul>
-      </div>
+<body class="bg-gray-50 text-gray-900">
+  <div class="w-full h-64 bg-black relative">
+    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" class="w-full h-full object-cover opacity-60">
+    <div class="absolute inset-0 flex items-center justify-center">
+      <h1 class="text-white text-5xl font-bold uppercase tracking-wider">Vente de pots de piment aromatisé en poudre</h1>
     </div>
+  </div>
+  <div class="max-w-4xl mx-auto py-12 px-8 bg-white shadow-2xl -mt-10 rounded-2xl relative z-10 mb-20">
+    <article class="prose prose-lg max-w-none">
+      <div class="bg-gradient-to-r from-orange-500 to-red-500 h-screen">
+        <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+          <div class="flex flex-wrap justify-center">
+            <div class="w-full lg:w-1/2 xl:w-1/2 p-6 text-white">
+              <h1 class="text-3xl font-bold">Piment Aromatisé en Poudre</h1>
+              <p class="text-xl mt-4">Qualité artisanale, Prix imbattable</p>
+              <p class="text-lg mt-4">2000FCFA le pot de 80ml en promo toute l'année</p>
+              <div class="mt-8">
+                <a href="https://wa.me/1234567890" class="bg-orange-700 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded">Acheter sur WhatsApp</a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 xl:w-1/2 p-6">
+              <img src="https://storage.tally.so/private/icone-buro.png?id=WD7M2N&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IldEN00yTiIsImZvcm1JZCI6IldPRWdqUiIsImlhdCI6MTc2NzgxOTA5MX0.iFcko175s33MQUBlIv8N8lkOEJrf6MZxVho4nNa_FHA&signature=bf4c2968e555eaf2d0f830218fd910c79b192971186da75611d07ae4ba3babbf" class="rounded-2xl shadow-lg">
+            </div>
+          </div>
+          <div class="mt-12 text-white">
+            <h2 class="text-2xl font-bold">Bénéfices</h2>
+            <ul class="list-disc mt-4">
+              <li>Qualité artisanale garantie</li>
+              <li>Prix imbattable</li>
+              <li>Idéal pour les particuliers et les restaurateurs</li>
+            </ul>
+          </div>
+          <div class="mt-12 text-white">
+            <h2 class="text-2xl font-bold">Témoignages</h2>
+            <p class="text-lg mt-4">Les clients satisfaits partagent leur expérience</p>
+            <div class="flex flex-wrap justify-center">
+              <div class="w-full lg:w-1/2 xl:w-1/2 p-6">
+                <p class="text-lg mt-4">"Produit de qualité, je recommande !" - John D.</p>
+              </div>
+              <div class="w-full lg:w-1/2 xl:w-1/2 p-6">
+                <p class="text-lg mt-4">"Prix imbattable, je suis satisfait !" - Jane D.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-12 text-white">
+            <h2 class="text-2xl font-bold">FAQ</h2>
+            <ul class="list-disc mt-4">
+              <li>Comment commander ?</li>
+              <li>Combien de temps pour la livraison ?</li>
+              <li>Comment contacter le service client ?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
   </div>
 </body>
 </html>
