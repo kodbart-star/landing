@@ -1,0 +1,33 @@
+<div class="bg-gradient-to-r from-blue-500 to-purple-500 h-screen flex justify-center items-center">
+  <div class="bg-white rounded-2xl shadow-lg p-10 w-1/2">
+    <h1 class="text-3xl font-bold mb-4">{{ $json.businessName }}</h1>
+    <p class="text-lg">{{ $json.description }}</p>
+    <p class="text-lg mt-4">Cible : {{ $json.targetAudience }}</p>
+    <div class="mt-8">
+      <img src="{{ $json.imageUrl }}" class="rounded-2xl shadow-lg">
+    </div>
+    <div class="mt-8">
+      <h2 class="text-2xl font-bold mb-4">Bénéfices</h2>
+      <ul>
+        <li class="text-lg mb-2">Bénéfice 1</li>
+        <li class="text-lg mb-2">Bénéfice 2</li>
+        <li class="text-lg mb-2">Bénéfice 3</li>
+      </ul>
+    </div>
+    <div class="mt-8">
+      <h2 class="text-2xl font-bold mb-4">Témoignages</h2>
+      <p class="text-lg">Témoignage 1</p>
+      <p class="text-lg mt-4">Témoignage 2</p>
+      <p class="text-lg mt-4">Témoignage 3</p>
+    </div>
+    <div class="mt-8">
+      <h2 class="text-2xl font-bold mb-4">FAQ</h2>
+      <p class="text-lg">Question 1 : Réponse 1</p>
+      <p class="text-lg mt-4">Question 2 : Réponse 2</p>
+      <p class="text-lg mt-4">Question 3 : Réponse 3</p>
+    </div>
+    <div class="mt-8">
+      <a href="{{ $json.whatsappLink }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Contactez-nous sur WhatsApp</a>
+    </div>
+  </div>
+</div>
